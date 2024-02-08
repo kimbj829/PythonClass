@@ -27,4 +27,14 @@ while True:
         sum = num1 + num2;
         num_list.append(sum);
 print(num_list);
+'''
+result = 0;
+arr = [];
+while True:
+    num1, num2 = map(int, input("입력 >> ").split());
+    if num1 == 0 and num2 == 0:
+        break;
+    result = num1 + num2;
+    arr.append(result);
+'''
 

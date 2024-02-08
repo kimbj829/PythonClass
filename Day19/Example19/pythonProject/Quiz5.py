@@ -21,4 +21,10 @@ str_list = [];
 reverse_string();
 print_list();
 
+'''
+def print_reverse(string):
+    print(string[::-1]);
 
+re_str = input("입력 >> ");
+print_reverse(re_str);
+'''
